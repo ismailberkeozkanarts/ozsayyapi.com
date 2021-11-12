@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box; /*genişlik veya yüksekliğin border,padding eklendiğinde değişmesini engelledim*/ 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family:'roboto', sans-serif;
+}
+
+#sosyal{
+    background-color:rgb(204, 135, 7);
+    color: white;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index:1;
+    font-size: 18px;
+    text-align: right;
+    padding: 15px;
+}
+font{
+    float: left;
+    letter-spacing: 2px;
+}
+
+span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+#sosyal i{
+    margin-right: 15px;
+}
+#sosyal i:hover{
+    opacity: 0.8;
+
+}
+#container{
+    width: 95%;
+    margin: auto;
+    height: auto;
+}
+
+#header{
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 2px 8px 2px rgb(20,23,28,.15);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    
+}
+#headerResim{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ; 
+    background-color: black;
+    opacity:0.7 ;
+    margin-bottom: 5px;
+
+}
+
+#headerResim:hover{
+       opacity:0.5 ;
+    transition: 0.8s;
+}
+
+
+section{
+    width: 100%;
+    height: auto;
+    background-color: slategray;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ; 
+    box-shadow: 0 2px 8px 2px rgb(20,23,28,.15);
+    margin-top: 15px;
+    color: white;
+    overflow: auto; /*bulunduğu etiketin içine navı sığdırdım*/
+}
+
+nav{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+ nav ul{
+     width: auto;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+ nav li{
+     list-style-type:none ;
+
+ }
+
+ nav li a{
+    height:50px;
+    line-height: 50px;
+    text-decoration: none;/*alt çizgiyi kaldırdım*/
+    color:white;
+    border-bottom:1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+ }
+ nav li a:hover{
+    color: white;
+    background-color: rgb(204, 135, 7);
+    box-shadow: 0 2px 8px 2px rgba(204, 135, 7, 0.555);
+    transition: 0.6s;
+ }
+
+ main{
+     float: left;
+     height: auto;
+     width:80%;/*menüye 20% verdiğim için 80% kaldı Hürol Hocam*/
+     padding: 10px;
+ }
+
+ .icerik{
+     width: 48%;
+     height: auto;
+     display: inline-block;/*aynı satırda block uyguladım(display:block ta yanı sütunda bu uyglanırdı.)*/
+     margin-right: 15px;
+     box-shadow: 0 2px 8px 2px rgb(20,23,28,.15);
+     border-radius: 10px;
+     
+ }
+
+ .rsm{
+     width: 100%;
+     border-top-left-radius: 10px;
+     border-top-right-radius:10px; 
+ }
+
+ .rsm:hover{
+     opacity:0.6;
+     transition: 0.8s;/* uygulanma süresi*/
+ }
+
+h5{
+    margin: 10px;
+}
+
+.icerikyazi{
+    margin: 10px;
+}
+
+
+
+footer{
+     width: 100%;
+     height: 75px;
+     background-color: black;
+     color: aliceblue;
+     line-height: 75px;/*dikeyde hizaladım*/
+     text-align: center;/*yatayda hizaladım*/
+     box-shadow: 0 2px 8px 2px rgb(20,23,28,.15);
+     font-size: 20px;
+}
+
+footer h6:hover{
+    opacity: 0.6;
+
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin:0 10px;/*alt üst 0, sağdan soldan 10px verdim*/
+    border-radius: 10px;
+}
+
+#hakkimizdarsm{
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+
+   
+}
+#hakkimizdarsm:hover{
+  opacity: 0.6;
+  transition: 0.8s;
+}
+
+
+.hakyazi1{
+    font-size: 25px;
+}
+.hakyazi2{
+    font-size: 15px;
+}
+
+.hizmet1{
+    width:31%;
+    height: 430px;
+    background-color: rgb(20,23,28,.15);
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgb(20,23,28,.15);
+    color:white;
+}
+
+.hiz1res{
+    width: 100%;
+    height: 180px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    opacity:0.6;
+}
+.hiz1res:hover{
+   opacity:1;
+   transition: 0.8s;
+}
+.hiz1bas{
+    width: 100%;
+    font-size: 20px;
+    display:inline-block;
+    margin-top:0px ;
+    color: white;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background-color: darkslategray;
+}
+
+.hizdetay{
+    text-align: center;
+    font-family:'roboto', serif ;
+}
+
+
+.hizmet2{
+    width:47.3%;
+    height: 450px;
+    background-color: rgb(20,23,28,.15);
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgb(20,23,28,.15);
+    color:white;
+    display: block;
+}
+
+.hiz2res{
+    width: 100%;
+    height: 180px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    opacity:0.6;
+}
+.hiz2res:hover{
+   opacity:1;
+   transition: 0.8s;
+}
+.hiz2bas{
+    width: 100%;
+    font-size: 20px;
+    display:inline-block;
+    margin-top:0px ;
+    color: white;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background-color: darkslategray;
+}
+
+.galres{
+    width: 22%;
+    height: 200px;
+    border-radius: 5px;
+    opacity:0.8;
+    box-shadow: 0 2px 8px 2px rgb(20,23,28,.15);
+    margin: 10px;
+    object-fit: cover;/*resimler sıkışmaz*/
+}
+
+.galres:hover{
+    opacity:1 ;
+    transition: 0.6s;
+    border:5px solid black;
+    cursor: pointer;/*mouse üzerine geldiğinde işaret değişmesini sağladım*/
+}
+
+.link:link{
+    text-decoration: none;
+}
+
+iframe{
+    width: 98%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px 2px rgb(20,23,28,.15);
+    margin-left:10px;
+}
+
+.section1{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background-color: slategray;
+    padding: 10px;
+}
+
+.form{
+    width: 49%;
+    float: left;
+    height: 380px;
+    border:1px solid darkslategray;
+    padding: 10px;
+    margin-right:10px;
+}
+
+.col25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+
+}
+
+.col75{
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+
+label{
+    padding: 10px 10px 10px 0px;
+    display: inline-block;
+
+}
+
+input[type=text],[type=email],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkslategray;
+    border-radius: 4px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+input[type=text]:focus,[type=email]:focus,textarea:focus{
+    border-bottom:2px solid red ;
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+input[type=submit]{
+    background-color: seagreen;
+    color: white;
+    padding:12px 20px;
+    border: none;
+    border-radius: 7px;
+    float: right;
+    margin: 6px;
+    opacity: 0.7;
+}
+input[type=submit]:hover{
+     opacity: 1;
+     transition: 0.6s;
+}
+
+
+.adres{
+    width: 49%;
+    float: left;
+    height: 380px;
+    border:1px solid darkslategray;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+
+}
+
+.span1{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 16px;
+}
